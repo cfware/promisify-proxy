@@ -1,5 +1,6 @@
 # @cfware/promisify-proxy
 
+[![Travis CI][travis-image]][travis-url]
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 [![MIT][license-image]](LICENSE)
@@ -47,6 +48,8 @@ npm test
 
 [npm-image]: https://img.shields.io/npm/v/@cfware/promisify-proxy.svg
 [npm-url]: https://npmjs.org/package/@cfware/promisify-proxy
+[travis-image]: https://travis-ci.org/cfware/promisify-proxy.svg?branch=master
+[travis-url]: https://travis-ci.org/cfware/promisify-proxy
 [downloads-image]: https://img.shields.io/npm/dm/@cfware/promisify-proxy.svg
 [downloads-url]: https://npmjs.org/package/@cfware/promisify-proxy
 [license-image]: https://img.shields.io/github/license/cfware/promisify-proxy.svg
