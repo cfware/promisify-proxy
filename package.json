@@ -1,0 +1,38 @@
+{
+  "name": "@cfware/promisify-proxy",
+  "version": "0.1.0",
+  "description": "ES6 Proxy object for promisifying selected members of an object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint *.js test/*.js && nyc mocha"
+  },
+  "engines": {
+    "nodejs": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfware/promisify-proxy.git"
+  },
+  "author": "Corey Farrell",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    ".eslintrc.json",
+    "test"
+  ],
+  "keywords": [
+    "promise",
+    "promisify",
+    "es6"
+  ],
+  "bugs": {
+    "url": "https://github.com/cfware/promisify-proxy/issues"
+  },
+  "homepage": "https://github.com/cfware/promisify-proxy#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.10.0",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0"
+  }
+}
