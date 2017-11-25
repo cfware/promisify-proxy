@@ -1,6 +1,7 @@
 # @cfware/promisify-proxy
 
 [![Travis CI][travis-image]][travis-url]
+[![Greenkeeper badge](https://badges.greenkeeper.io/cfware/promisify-proxy.svg)](https://greenkeeper.io/)
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 [![MIT][license-image]](LICENSE)
