@@ -4,7 +4,8 @@
   "description": "ES6 Proxy object for promisifying selected members of an object.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint *.js test/*.js && nyc mocha"
+    "test": "eslint *.js test/*.js && nyc mocha",
+    "report-coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "engines": {
     "nodejs": ">=8"
