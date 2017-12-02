@@ -13,7 +13,6 @@ class testObject {
 	}
 }
 
-/* global describe: true, it: true, beforeEach: true, afterEach: true */
 describe('@cfware/promisify-proxy', () => {
 	describe('constructor throws', () => {
 		it('undefined obj throws', () => assert.throws(() => new promisifyProxy()));
@@ -83,28 +82,4 @@ describe('@cfware/promisify-proxy', () => {
 			assert.ok('test_key' in testproxy);
 		});
 	});
-/*
-	describe('basic lifecycle', () => {
-		let daemon;
-
-		it('check fields on new object', () => {
-			assert.notEqual(daemon, null, 'daemon is not null');
-			assert.equal(daemon.connections, 0, 'daemon.connections == 0');
-		});
-	});
-
-	describe('readConfig', () => {
-		it('valid file argv', async function() {
-			const data = await koaDaemon.readConfig(__dirname, 'test.json');
-
-			assert.deepEqual(data, {name: 'value', array: [1]});
-		});
-
-		it('invalid file', done => {
-			koaDaemon.readConfig(path.resolve(__dirname, 'invalid.json'))
-				.then(() => done('Promise should be rejected'))
-				.catch(() => done());
-		});
-	});
-*/
 });
